@@ -37,10 +37,10 @@ const Nav = ({openNav}:Props) => {
         mx-auto'>
             {/* logo */}
             <div className='flex items-center space-x-2'>
-                <p className='text-white font-bold text-lg lg:text-2xl'>425 ОШП Скала</p>
+                <p className='text-white font-bold text-lg lg:text-2xl whitespace-nowrap pr-1'>425 ОШП Скала</p>
             </div>
             {/* nav links */}
-            <div className='lg:flex items-center space-x-14 hidden'>
+            <div className='lg:flex items-center space-x-4 xl:space-x-12 hidden whitespace-nowrap'>
               {navLinks.map((link) => {
                 return (
                   <Link key={link.id} href={link.url}>
@@ -59,7 +59,7 @@ const Nav = ({openNav}:Props) => {
               <button className='lg:flex text-[#FFB400] text-xl 
               border-2 border-[#FFB400] px-20 py-2 rounded-full
               hover:bg-[#FFB400] hover:text-white transition-all
-              duration-1000 font-bold hidden'>
+              duration-1000 font-bold hidden ml-1'>
                 Вступити
               </button>
               {/* Burger menu */}

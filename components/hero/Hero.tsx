@@ -25,7 +25,7 @@ const Hero = () => {
             <p className="text-white font-semibold text-[13px] md:text-[20px] lg:text-xl xl:text-2xl">УКРАЇНИ</p>
           </div>
           </div>
-          <h1 className="text-white font-semibold text-[55px] md:text-[75px] lg:text-[116px] xl:text-[156px] mt-40">ДОЛУЧАЙСЯ</h1>
+          <h1 className="text-white font-semibold text-[55px] md:text-[75px] lg:text-[116px] xl:text-[156px] mt-40 xl:mt-60">ДОЛУЧАЙСЯ</h1>
           <h2 className="text-[35px] font-[400] md:text-[45px] lg:text-[62px] xl:text-[82px] text-[#EF9F6A] 
           text-opacity-60 pb-4 mt-[-20px] lg:pb-0">ДО КРАЩИХ</h2>
         </div>
