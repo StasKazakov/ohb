@@ -5,8 +5,8 @@ const Hero = () => {
         <Image
           src="/bg.png"
           layout="fill"
-          objectFit="cover"
-          quality={40} // Adjust quality as needed
+          objectFit="contain"
+          quality={50} // Adjust quality as needed
           alt="Background"
         />
         <div data-aos="fade-right" className="flex items-center flex-col lg:justify-center h-full">
