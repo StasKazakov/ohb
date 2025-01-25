@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
           <h1 className="text-white font-semibold text-[55px] md:text-[75px] lg:text-[116px] xl:text-[156px] mt-40">ДОЛУЧАЙСЯ</h1>
           <h2 className="text-[35px] font-[400] md:text-[45px] lg:text-[62px] xl:text-[82px] text-[#EF9F6A] 
-          text-opacity-60 pb-4 mt-[-20px] lg:pb-0">ДО КРАЩИХ</h2>
+          text-opacity-60 pb-4 mt-[-20px] lg:pb-0 lx:mt-[-30px]">ДО КРАЩИХ</h2>
         </div>
       </div>
     );
