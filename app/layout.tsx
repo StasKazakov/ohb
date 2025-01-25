@@ -5,6 +5,13 @@ import ResponsiveNav from "@/components/navbar/ResponsiveNav";
 export const metadata: Metadata = {
   title: "425 ОШП Скала",
   description: "Збройні сили України",
+  openGraph: {
+    title: "425 ОШП Скала",
+    description: "Збройні сили України",
+    images: ["/soc.png"],
+    url: "https://ohb.vercel.app/",
+    type: "website",
+  }
 };
 
 export default function RootLayout({
