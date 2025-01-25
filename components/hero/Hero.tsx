@@ -6,12 +6,12 @@ const Hero = () => {
           src="/bg.png"
           layout="fill"
           objectFit="cover"
-          objectPosition="top"
+          style={{ objectPosition: 'top' }}
           quality={50} // Adjust quality as needed
           alt="Background"
         />
         <div data-aos="fade-right" className="flex items-center flex-col lg:justify-center h-full">
-          <div className='w-[90%] lg:w-[80%] flex mt-[20%] md:mt-[10%] lg:mt-20 justify-end'>
+          <div className='w-[90%] lg:w-[80%] flex mt-[20%] md:mt-[10%] lg:mt-30 justify-end'>
             <div className='w-[25px] md:w-[40px] lx:w-[51px] h-[35px] lg:h-[70px]'>
             <Image
               src="/logo.png"
@@ -25,7 +25,7 @@ const Hero = () => {
             <p className="text-white font-semibold text-[13px] md:text-[20px] lg:text-xl xl:text-2xl">УКРАЇНИ</p>
           </div>
           </div>
-          <h1 className="text-white font-semibold text-[55px] md:text-[75px] lg:text-[116px] xl:text-[156px] mt-40 xl:mt-60">ДОЛУЧАЙСЯ</h1>
+          <h1 className="text-white font-semibold text-[55px] md:text-[75px] lg:text-[116px] xl:text-[156px] mt-40">ДОЛУЧАЙСЯ</h1>
           <h2 className="text-[35px] font-[400] md:text-[45px] lg:text-[62px] xl:text-[82px] text-[#EF9F6A] 
           text-opacity-60 pb-4 mt-[-20px] lg:pb-0">ДО КРАЩИХ</h2>
         </div>

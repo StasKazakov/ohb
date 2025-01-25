@@ -40,7 +40,7 @@ const Nav = ({openNav}:Props) => {
                 <p className='text-white font-bold text-lg lg:text-2xl whitespace-nowrap pr-1'>425 ОШП Скала</p>
             </div>
             {/* nav links */}
-            <div className='lg:flex items-center space-x-4 xl:space-x-12 hidden whitespace-nowrap'>
+            <div className='lg:flex items-center justify-between hidden whitespace-nowrap w-[50%]'>
               {navLinks.map((link) => {
                 return (
                   <Link key={link.id} href={link.url}>
