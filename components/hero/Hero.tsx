@@ -1,11 +1,12 @@
 import Image from 'next/image'
 const Hero = () => {
     return (
-      <div className="w-screen h-auto lg:h-screen bg-cover bg-center">
+      <div className="w-screen h-auto lg:h-screen bg-cover bg-center relative">
         <Image
           src="/bg.png"
           layout="fill"
-          objectFit="contain"
+          objectFit="cover"
+          objectPosition="top"
           quality={50} // Adjust quality as needed
           alt="Background"
         />
