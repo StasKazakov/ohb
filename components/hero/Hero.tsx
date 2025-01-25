@@ -1,7 +1,7 @@
 import Image from 'next/image'
 const Hero = () => {
     return (
-      <div className="w-screen h-auto lg:h-screen bg-cover bg-center" style={{ backgroundImage: "url('/bg.png')" }}>
+      <div className="w-screen h-auto lg:h-screen bg-cover bg-center" style={{ backgroundImage: "url('/bg.webp')" }}>
         <div data-aos="fade-right" className="flex items-center flex-col lg:justify-center h-full">
           <div className='w-[90%] lg:w-[80%] flex mt-[20%] md:mt-[10%] lg:mt-20 justify-end'>
             <div className='w-[25px] md:w-[40px] lx:w-[51px] h-[35px] lg:h-[70px]'>
